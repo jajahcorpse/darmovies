@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<link rel="icon" href="img/favicon.ico" type="image/png">
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stYlesheet" href="css/stylesheet.css">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dark Movies Store | HOME</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><img src="img/logo.png" id="logo"></a>
+        <form method="post">
+            <input type="text" placeholder="Faça uma busca">
+            <button> <i class="fa-solid fa-magnifying-glass"></i></button>
+
+        </form>
+
+    </header>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="topfilmes.html">Listas</a></li>
+            <li><a href="cadastro.html">Cadastre-se</a></li>
+        </ul>
+        <div class="redes">
+            <a class="facebook" href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a class="instagram" href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a class="google" href="#"><i class="fa-brands fa-google"></i></a>
+        </div>
+    </nav>
+
+    <section class="secao1">
+        <h2>Cadastre-se</h2>
+        <form action="" class="form">
+            <label>Nome:</label><br>
+            <input type="text" placeholder="Insira seu Nome"><br>
+            <label>Sobrenome:</label><br>
+            <input type="text" placeholder="Insira seu Sobrenome"><br>
+            <label>Data:</label><br>
+            <input type="date"><br>
+            <label>E-mail:</label><br>
+            <input type="text" placeholder="E-mail"><br>
+            <label>Senha:</label><br>
+            <input type="password" placeholder="Senha"><br>
+            <label for="">Sexo:</label><br>
+            <select name="" id="sexo">
+                <option value="">Selecione</option>
+                <option value="">Masculino</option>
+                <option value="">Feminino</option>
+                <option value="">Outros</option>
+            </select><br>
+            <label>Observações:</label><br>
+            <textarea name="" id="obs" cols="90" rows="10" placeholder="Insira seus filmes prediletos"></textarea>
+            <center>
+                <button class="botao" type="submit"  onclick="salvar()"><i class="fas fa-save"></i> Salvar</button>
+            </center>
+              
+              
+              
+        </form>
+
+        
+    </section>
+    <footer class = "rodape">
+        <p>
+        © Dark Movies Store - Todos os direitos reservados.
+        </p>
+    </footer>
+    <script>
+        function salvar(){
+            alert("Salvo com Sucesso")
+        }
+    </script>
+
+</body>
+
+</html>

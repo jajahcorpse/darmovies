@@ -1,0 +1,241 @@
+/*Configuraçoes Básicas*/ 
+* {
+margin: 0;
+padding: 0;
+font-size: 100%;
+font-family: 'Open Sans', sans-serif;
+font-weight: normal;
+box-sizing: border-box; border: none; 
+outline: none;
+}
+img {max-width: 100%;}
+ul {list-style: none;}
+a {text-decoration: none;}
+h2 {font-size: 1.5em; color: #333;}
+p {font-size: 1em; color: #777;}
+
+
+/*cabeçalho*/
+.cabecalho {
+	width: 100%; 
+	float: left; 
+	padding: 35px 8%; 
+	background :url(file:///C:/Users/jajam/Desktop/Projeto%20de%20interface/img/teste8.png) no-repeat;
+}
+#logo {
+    float: left;
+    padding: 10px 8%;
+    width: 25%;
+}
+.cabecalho form {width: 30%; 
+    float: right;
+    margin-top: 90px;
+}
+.cabecalho input[type="text"]{
+    width: 85%;
+    float: left;
+    padding: 15px 10px;
+    border-radius: 5px 0 0 5px;
+}
+.cabecalho button {
+    border-radius: 0 5px 5px 0;
+    width: 65px;
+    padding: 15px 15px;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
+.menu {
+    width: 100%;
+    float: left;
+    background-color: black;
+    padding: 17px 8%;
+}
+.menu li {
+    float:left;
+
+}
+.menu li a {
+    color: #9d9d9d;
+    margin-right: 25px;
+}
+.menu li a:hover {
+    color: #fff;
+    border-bottom: 5px solid red;
+}
+.redes{
+    float: right;
+}
+.redes a {
+    color: #fff;
+    float: left;
+    margin-left: 12px;
+}
+.facebook:hover {color: #285396;}
+.instagram:hover {color:#9c45b4;}
+.google:hover {color: #dd4d3f;}
+
+.secao1 {
+    float: left;
+    width: 100%;
+    padding: 20px 8%;
+}
+
+.artigo1 {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.artigo1 h2 {margin-bottom: 15px;}
+.artigo1 img {
+    width: 70%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+.artigo1 p {text-align: justify;}
+#video {
+    padding: 10px 20px;
+    background-color: #e6e0e0;
+    border-radius: 5px; 
+}
+.run {
+    float: left;
+    
+}
+.run img {
+    width: 50px;
+    margin: 10px;
+    float: left;
+
+}
+.parceiros {
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #e6e0e0;
+
+}
+.parceiros h2 {
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+.parceiros img {
+    padding: 15px 8px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+.nossoespaco {
+    width: 70%;
+    float: left;
+    padding: 0 20px 20px 0;
+}
+.nossoespaco img {
+    width: 100%;
+    float: left;
+    border-radius: 5px;
+    margin: 0 15px 15px 0;
+}
+.nossoespaco p {
+    text-align: justify;
+}
+.music {
+    width: 30%;
+    float: right;
+    padding: 65px 87px;
+    border-radius: 5px;
+    background-color: #e6e0e0;
+
+    
+}
+.music h2 {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.rodape {
+    width: 100%;
+    float: left;
+    padding: 20px 8%;
+    background-color: #fe0000;
+}
+.rodape p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    text-align: center;
+}
+.coluna {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+
+}
+.linha {
+    margin: 0px 0px;
+
+}
+.linha::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: left;
+    width: 250px;
+    height: 350px;
+    background-color: #f1f1f1;
+    margin: 15px;
+}
+.card p h4 {
+    text-align: center;
+}
+.lista img {
+    width: 50%;
+}
+.lista li {
+    margin: 15px;
+    font-size: 1.5em; color: #333;
+}
+.form {
+    padding: 15px;
+    
+}
+.form input {
+    border-radius: 5px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+#sexo {
+    border-radius: 5px;
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+}
+#obs {
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+.botao {
+    background-color: #fe0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
